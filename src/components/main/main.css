@@ -59,6 +59,57 @@
   margin-top: 10px;
 }
 
+.text-box a {
+  margin-top: 30px;
+  margin-right: 280px;
+
+  width: 20vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  text-decoration: none;
+  color: #ffffff;
+
+  font-size: 22px;
+  text-transform: uppercase;
+
+  border: 2px solid #fff;
+}
+
+.text-box a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: #191c7e;
+  border: none;
+}
+
+#icon-contato {
+  margin-left: 30px;
+  height: 100px;
+  width: 30px;
+}
+
+.text-box a:before {
+  content: '';
+  position: absolute;
+  width: 20vw;
+  height: 10vh;
+  transform: scaleX(0);
+
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.text-box a:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  z-index: -1;
+}
+
 .img-box {
   width: 50vw;
 }
@@ -78,6 +129,34 @@
   100% {
     margin-left: 250px;
     opacity: 0%;
+  }
+}
+
+@media screen and (min-width: 1401) {
+  .text-box a {
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .text-box a {
+    margin-top: 30px;
+    margin-right: 100px;
+
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    text-decoration: none;
+    color: #ffffff;
+
+    font-size: 22px;
+    text-transform: uppercase;
+
+    border: 2px solid #fff;
   }
 }
 
@@ -172,7 +251,7 @@
     justify-content: center;
     text-align: center;
     height: 10vh;
-    width: 30vw;
+    width: 45vw;
 
     background: linear-gradient(90deg, #462385, #191c7e);
 
@@ -182,6 +261,30 @@
     font-size: 10px;
 
     border: 1px solid #fff;
+  }
+
+  .text-box p {
+    font-size: 13px;
+  }
+
+  .text-box a {
+    margin-top: 30px;
+    margin-right: 0px;
+
+    width: 45vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    text-decoration: none;
+    color: #ffffff;
+
+    font-size: 15px;
+    text-transform: uppercase;
+
+    border: 2px solid #fff;
   }
 
   .img-box {

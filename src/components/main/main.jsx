@@ -2,6 +2,7 @@ import TypeIt from 'typeit-react';
 
 import './main.css';
 import alien from '../../assets/outer-space-animate.svg';
+import { BsArrowRight } from 'react-icons/bs';
 
 export default function Main() {
   return (
@@ -24,6 +25,13 @@ export default function Main() {
           Kenzie Academy Brasil. Vivo no mundo da tecnologia desde criança,
           atualmente sou Front-End. Procurando-me aperfeiçoar em Back-End.
         </p>
+        <a
+          href='https://www.linkedin.com/in/jose-ernane-dias-rodrigues-313b15242/'
+          target={'_blank'}
+        >
+          Contato
+          <BsArrowRight id='icon-contato' />
+        </a>
       </div>
       <div className='img-box'>
         <img src={alien} alt='' />

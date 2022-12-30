@@ -8,7 +8,7 @@ export default function Projects() {
     <div className='container-projects' id='projects'>
       <h2 className='title-projects'>Projects</h2>
       <div className='images-projects'>
-        <div className='item-projects' key={key}>
+        <div className='item-projects'>
           <a
             href={'https://github.com/joseernanejob/LoginTravel.git'}
             target={'_blank'}

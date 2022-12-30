@@ -1,12 +1,17 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import App from "./App";
+import {
+  BrowserRouter as Router,
+  HashRouter,
+  Route,
+  Routes,
+} from 'react-router-dom';
+import App from './App';
 
-export default function Rotas(){
+export default function Rotas() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
-        <Route index element={<App />}/>
+        <Route index element={<App />} />
       </Routes>
-    </Router>
-  )
+    </HashRouter>
+  );
 }

@@ -3,17 +3,6 @@ import './projects.css';
 import LoginTravel from '../../assets/Logintravel.png';
 import RobotLogin from '../../assets/RobotLogin.png';
 
-const imgs = [
-  {
-    img: LoginTravel,
-    link: 'https://github.com/joseernanejob/LoginTravel.git',
-  },
-  {
-    img: RobotLogin,
-    link: 'https://github.com/joseernanejob/Robot-Login.git',
-  },
-];
-
 export default function Projects() {
   return (
     <div className='container-projects' id='projects'>

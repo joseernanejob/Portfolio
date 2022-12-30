@@ -49,6 +49,7 @@
   margin-left: 30px;
 
   width: 85%;
+  height: 15vh;
 
   font-size: 50px;
   line-height: 50px;
@@ -242,6 +243,8 @@
     margin-left: 30px;
 
     width: 60%;
+    height: 10vh;
+
     font-size: 20px;
   }
 
@@ -318,8 +321,11 @@
     margin-top: 20px;
     margin-left: 30px;
 
-    width: 60%;
+    width: 85%;
+    height: 8vh;
+
     font-size: 20px;
+    line-height: 0px;
   }
 
   .text-box #bem-vindo {

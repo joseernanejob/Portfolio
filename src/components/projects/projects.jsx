@@ -19,13 +19,20 @@ export default function Projects() {
     <div className='container-projects' id='projects'>
       <h2 className='title-projects'>Projects</h2>
       <div className='images-projects'>
-        {imgs.map((image, key) => (
-          <div className='item-projects' key={key}>
-            <a href={image.link} target={'_blank'}>
-              <img src={image.img} alt='Images' />
-            </a>
-          </div>
-        ))}
+        <div className='item-projects' key={key}>
+          <a
+            href={'https://github.com/joseernanejob/LoginTravel.git'}
+            target={'_blank'}
+          >
+            <img src={LoginTravel} alt='Images' />
+          </a>
+          <a
+            href={'https://github.com/joseernanejob/Robot-Login.git'}
+            target={'_blank'}
+          >
+            <img src={RobotLogin} alt='Images' />
+          </a>
+        </div>
       </div>
     </div>
   );

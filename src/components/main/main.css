@@ -81,7 +81,7 @@
 }
 
 .text-box a:hover {
-  transform: scale(1.1);
+  transform: scale(1);
   transition: 0.5s;
   color: #191c7e;
   border: none;

@@ -1,0 +1,6 @@
+.backGround {
+  background: url(assets/background-img.jpg) no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+}

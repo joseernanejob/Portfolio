@@ -1,7 +1,7 @@
 import './projects.css';
 
-import LoginTravel from '../../assets/imgsProjects/Login-travel.png';
-import RobotLogin from '../../assets/imgsProjects/Robot-Login.png';
+import LoginTravel from '../../assets/Login-travel.png';
+import RobotLogin from '../../assets/Robot-Login.png';
 
 const imgs = [
   {

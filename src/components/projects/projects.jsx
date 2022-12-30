@@ -1,5 +1,4 @@
 import './projects.css';
-import { motion } from 'framer-motion';
 
 import LoginTravel from '../../assets/imgsProjects/Login-travel.png';
 import RobotLogin from '../../assets/imgsProjects/Robot-Login.png';

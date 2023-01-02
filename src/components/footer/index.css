@@ -1,0 +1,26 @@
+.footer-container {
+  background-color: #0b022b;
+  height: 5vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container h2 {
+  color: #00e5ff;
+
+  font-size: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  .footer-container {
+    height: 6vh;
+  }
+
+  .footer-container h2 {
+    color: #00e5ff;
+
+    font-size: 9px;
+    text-align: center;
+  }
+}

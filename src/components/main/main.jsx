@@ -10,20 +10,33 @@ export default function Main() {
       <div className='text-box'>
         <h2 id='bem-vindo'>Bem-Vindo ao meu Portfolio</h2>
         <h2 id='title'>
-          Olá! Sou Jose
+          Hello World! <br />
           <TypeIt
             options={{
-              strings: [' Desenvolvedor Web '],
-              speed: 200,
               loop: true,
+              speed: 200,
+            }}
+            getBeforeInit={(instance) => {
+              instance
+                .type('Sou Jose Ernane!')
+                .pause(750)
+                .delete(12)
+                .pause(500)
+                .type('Desenvolvedor Web!');
+
+              // Remember to return it!
+              return instance;
             }}
           />
         </h2>
         <p>
-          De Rio Maria - PA, tenho 22 anos, sou formado em Análise e
-          Desenvolvimento de Sistemas pela Estácio, hoje em dia sou aluno da
-          Kenzie Academy Brasil. Vivo no mundo da tecnologia desde criança,
-          atualmente sou Front-End. Procurando-me aperfeiçoar em Back-End.
+          Natural de Rio Maria - PA e atualmente com 22 anos, sou um entusiasta
+          do mundo da tecnologia desde criança. Possuo formação acadêmica em
+          Análise e Desenvolvimento de Sistemas pela Faculdade Estácio e
+          atualmente em formação Desenvolvedor Web FullStack pela Kenzie Academy
+          Brasil. Minha especialidade é na atuação com Front-End, mas tenho
+          buscado continuamente o aperfeiçoamento profissional também em
+          Back-End.
         </p>
         <a
           href='https://www.linkedin.com/in/jose-ernane-dias-rodrigues-313b15242/'

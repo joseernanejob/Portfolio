@@ -55,13 +55,17 @@ export default function NavBar() {
             Projects
           </Link>
 
-          <a
-            href='https://www.linkedin.com/in/jose-ernane-dias-rodrigues-313b15242/'
-            target={'_blank'}
+          <Link
             className='text-link'
+            to='contatos'
+            activeClass='active'
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
           >
-            Contato
-          </a>
+            Contatos
+          </Link>
         </div>
       </div>
     </>

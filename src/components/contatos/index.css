@@ -1,0 +1,136 @@
+.contatos-container {
+  background: #0b022b;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+}
+
+.contatos-title {
+  color: #00e5ff;
+  font-size: 60px;
+}
+
+.contatos-bg {
+  width: 100vw;
+}
+
+.contatos-list {
+  display: grid;
+  gap: 100px;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  margin-top: 30px;
+
+  margin-top: 70px;
+}
+
+.contatos-list li {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contatos-list li a {
+  text-decoration: none;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  height: 90px;
+  width: 100px;
+}
+
+.contatos-list li a p {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.contatos-list li a:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  box-sizing: border-box;
+
+  border-bottom: 2px solid transparent;
+  border-left: 2px solid transparent;
+  transition: all 0.8s ease;
+}
+
+.contatos-list li a:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  box-sizing: border-box;
+
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+  transition: all 0.8s ease;
+}
+
+.contatos-list li a:hover:before,
+.contatos-list li a:hover:after {
+  border-color: #00e5ff;
+  width: 100%;
+  height: 100%;
+}
+
+.contatos-list li:hover > a,
+.contatos-list li:hover > a p {
+  color: #00e5ff;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.contatos-icons {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .contatos-title {
+    color: #00e5ff;
+    font-size: 50px;
+  }
+
+  .contatos-list {
+    gap: 30px;
+  }
+
+  .contatos-icons {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contatos-list {
+    grid-template-columns: repeat(1, auto);
+    gap: 10px;
+  }
+
+  .contatos-container {
+    height: 70vh;
+  }
+}
+
+/* screens
+
+  640px min-width
+  1024px min-width
+  1920px min-width
+*/

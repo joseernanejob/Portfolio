@@ -8,7 +8,7 @@ export default function Main() {
   return (
     <div className='main-Container' id='home'>
       <div className='text-box'>
-        <h2 id='bem-vindo'>Bem-Vindo ao meu Portifólio</h2>
+        <h2 id='bem-vindo'>Bem-Vindo ao meu Portfólio</h2>
         <h2 id='title'>
           Hello World! <br />
           <TypeIt

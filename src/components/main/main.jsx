@@ -8,7 +8,7 @@ export default function Main() {
   return (
     <div className='main-Container' id='home'>
       <div className='text-box'>
-        <h2 id='bem-vindo'>Bem-Vindo ao meu Portfolio</h2>
+        <h2 id='bem-vindo'>Bem-Vindo ao meu Portifólio</h2>
         <h2 id='title'>
           Hello World! <br />
           <TypeIt
@@ -33,9 +33,9 @@ export default function Main() {
           Natural de Rio Maria - PA e atualmente com 22 anos, sou um entusiasta
           do mundo da tecnologia desde criança. Possuo formação acadêmica em
           Análise e Desenvolvimento de Sistemas pela Faculdade Estácio e
-          atualmente em formação Desenvolvedor Web FullStack pela Kenzie Academy
-          Brasil. Minha especialidade é na atuação com Front-End, mas tenho
-          buscado continuamente o aperfeiçoamento profissional também em
+          atualmente em formação de Desenvolvedor Web FullStack pela Kenzie
+          Academy Brasil. Minha especialidade é na atuação com Front-End, mas
+          tenho buscado continuamente o aperfeiçoamento profissional também em
           Back-End.
         </p>
         <a
